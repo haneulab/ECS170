@@ -6,7 +6,7 @@ If you want to add concepts additionally, please contact me.
 
 ## List of Concepts
 
-- [ ] [**Basic Built-in Data Types**](#Data+Types+In+Python)
+- [ ] [**Basic Built-in Data Types**](#data-types-in-python)
 
   - String Type : `str`
   - Number Type : `int`, `float`, `complex`

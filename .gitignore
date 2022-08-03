@@ -1,5 +1,8 @@
 # ignoring review runtime files
-**/*.review.*
+reviews/
 
 # ignoring caches
 **/__pycache__/
+
+# ignoring virtual environment lib
+env/

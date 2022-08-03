@@ -1,10 +1,14 @@
-# 🚀 ECS 170 Summer II 2022 Lecture Interpretation Notes
+<div align="center">
+<h1 aling="center">
+🚀 ECS 170 Lecture Interpretation Notes
+</h1>
+</div>
 
 ## List of Contents
 
-- [**1. READ ME FIRST**](#READ+ME+FIRST)
-- [**2. BEFORE GETTING STARTED**](#BEFORE+GETTING+STARTED)
-- [**3. GETTING STARTED**](#GETTING+STARTED)
+- [**1. READ ME FIRST**](#read-me-first)
+- [**2. BEFORE GETTING STARTED**](#before-getting-started)
+- [**3. GETTING STARTED**](#getting-started)
 
 ---
 
@@ -14,9 +18,9 @@ This directory contains course-related contents. More specifically it contains p
 
 Every lecture that I attend, I will summarize my interpretation and upload affter the lecture is over. This means that you will likely be able to see new notes here on the lecture days. There will be days where I will not be able to make it to lecture, if you want to collaborate on contributing to this repository, please contact me hanchoi@ucdavis.edu.
 
-In python-review directory, we can find review materials for basic to intermediate python programming. You can find the list of concepts that I went over by directly accessing the directory, or click here.
+In `PYTHON_REVIEW.md` file, we can find review materials python programming. You can find the list of concepts that I went over by directly accessing the file, or click [Here](./PYTHON_REVIEW.md).
 
-Any file within this directory is a lecture interpretation note. It is personal interpretation so I suggest that you do not fully depend on it rather you should first refer to the actual class note and test on your own whether how you interpreted a certain concept is good or not. Although the concepts and contents are motivated by each lecture in our ECS 170 Summer II 2022 course, I WILL NOT copy & paste any content from the actual lecture notes written by professor. I do not like copying and pasting. Rather I love to interpret in my own words and learn to describe to others in my own words. This means that this notes are not for you if you are looking for exact contents that professor writes in actual lecture notes.
+Any file starting with `lecture_intepretation` within this repository is a lecture interpretation note. It is personal interpretation so I suggest that you do not fully depend on it rather you should first refer to the actual class note and test on your own whether how you interpreted a certain concept is good or not. Although the concepts and contents are motivated by each lecture in our ECS 170 Summer II 2022 course, I WILL NOT copy & paste any content from the actual lecture notes written by professor. I do not like copying and pasting. Rather I love to interpret in my own words and learn to describe to others in my own words. This means that this notes are not for you if you are looking for exact contents that professor writes in actual lecture notes.
 
 ### Before Getting Started
 
