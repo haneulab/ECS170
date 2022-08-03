@@ -3,6 +3,7 @@ reviews/
 
 # ignoring caches
 **/__pycache__/
+**/.mypy_cache/
 
 # ignoring virtual environment lib
 env/

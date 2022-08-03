@@ -55,6 +55,6 @@ Unless the professor guides us through some of these testing tools (in future le
 #### LIST OF NOTES
 
 - **WEEK 1**
-  - [1. Introducing Terminologies, Concepts, and Examples Of AI (August 2, 2022)](./lecture_interpretation_1.md)
+  - [1. Introducing AI Examples, Terminologies, Iterative Search Process, and First Search Algorithms (August 2, 2022)](./lecture_interpretation_1.md)
   - [2. TBD](#)
   - [3. TBD](#)
