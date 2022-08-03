@@ -4,9 +4,9 @@ This directory contains python contents that we can review to better prepare as 
 
 If you want to add concepts additionally, please contact me.
 
-## Concepts
+## List of Concepts
 
-- [ ] **Basic Built-in Data Types**
+- [ ] [**Basic Built-in Data Types**](#Data+Types+In+Python)
 
   - String Type : `str`
   - Number Type : `int`, `float`, `complex`
@@ -32,18 +32,6 @@ If you want to add concepts additionally, please contact me.
 - [ ] **Functions**
 
   - Function Types : delcarative, lambda (anonymous), recursive
-
-- [ ] **Exceptions**
-
-  - Type of Exceptions
-  - TypeEror
-  - IndexError
-  - AttributeError
-  - KeyError
-  - ModuleNotFoundError
-  - IndentationError
-  - ValueErro
-  - ZeroDivisionError
 
 - [ ] **Testing & Type Checking**
 
@@ -72,6 +60,24 @@ If you want to add concepts additionally, please contact me.
   - Object Inheritance
   - Data Structure Implementations (Node, LinkedList, BinarySearchTree)
 
+- [ ] **Exceptions**
+
+  - Type of Exceptions
+  - TypeEror
+  - IndexError
+  - AttributeError
+  - KeyError
+  - ModuleNotFoundError
+  - IndentationError
+  - ValueErro
+  - ZeroDivisionError
+
 - [ ] **File System**
   - Handling File System
   - CRUD file operations
+
+---
+
+### Data Types In Python
+
+...
