@@ -8,7 +8,7 @@
 
 - [List of Contents](#list-of-contents)
   - [READ ME FIRST](#read-me-first)
-  - [Before Getting Started](#before-getting-started)
+  - [BEFORE GETTING STARTED](#before-getting-started)
   - [GETTING STARTED](#getting-started)
     - [LIST OF NOTES](#list-of-notes)
 
@@ -33,7 +33,7 @@ Before getting started, we can first review some of the concepts & tools that wi
 According to the class objectives, we will be using Google Colaboratory which is primarily based off from python programming language. On top of this, we will be using python dependencies (libraries) including **PyTorch** and **scikit-learn**.
 
 - [ ] Setting up python environment via Google Colab can be found [_To Be Updated_](#).
-- [ ] Reviewing python programming materials can be read from `PYTHON_REVIEW.md` file in this directory or click [here](./PYTHON_REVIEW.md)
+- [ ] Reviewing python programming materials can be read from `PYTHON_REVIEW.md` file in this directory or click [here](.python-review/README.md)
 - [ ] Installing useful dependencies on Google Colab's notebooks can be found [_To Be Updated_](#)
 
 **Testing Programs (OPTIONAL)**

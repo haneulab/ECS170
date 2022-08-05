@@ -165,9 +165,11 @@ There are two popular searching algorithms we can take a look at. They have some
 
 These searching algorithms are of the **uninformed** search type. This means that the actions these algorithms take will not have any information about current states beyond what is predefined within problem formulation. Another way of saying **uninformed search** is to limit the scope of search within the problem block. If we define that the state will have a value, theses search algorithms will have expectation for the existence of the value at each node, but they WILL NOT know if there is other objects or relationship between objects if any.
 
+Moreover, when finding the solution(s) to a problem, **BFS** gurantees that the solution it finds is **optimal solution**. In the meantime, finding optimal solution is meaningless if there exists one unique solution to a problem.
+
 #### BFS
 
-**Breadth First Search** is an iterative search algorithm that starts at the root node, and expands to its children nodes (successors) at each level. The next expansion depends on whether every successor of the parent node have been explored or not. This algorithm can be implemented along witg **FIFO queue**. For details of implementation of queue data tructure, please review `./implementation/queue.py` or click [queue.py](./implementation/queue.ipynb)
+**Breadth First Search** is an iterative search algorithm that starts at the root node, and expands to its children nodes (successors) at each level. The next expansion depends on whether every successor of the parent node have been explored or not. This algorithm can be implemented along with **Queue**. For details of implementation of queue data tructure, please review `./implementation/queue.py` or click [queue.py](./implementation/queue.ipynb)
 
 ```shell
 # BFS
@@ -181,15 +183,15 @@ These searching algorithms are of the **uninformed** search type. This means tha
 
 #### DFS
 
-**Depth-first Search** is also an interative search algorithm that starts at the root node. This alogrithm unlike **BFS** first expands the first expansion to the deepest level until the node at that point does not expand its child. This algorithm can be implemented along with **LIFO queue**. Notice that although we are using tree form of search, **DFS** implementation on graph-search version will have quite distinguishable features from it.
+**Depth-first Search** is also an interative search algorithm that starts at the root node. This alogrithm unlike **BFS** first expands the first expansion to the deepest level until the node at that point does not expand its child. This algorithm can be implemented along with **Stack**. Notice that although we are using tree form of search, **DFS** implementation on graph-search version will have quite distinguishable features from it.
 
 ```shell
 # DFS
 # order of expanding visualization
 
                 1
-        2       ->       5
-    3  ->   4   ->   6  ->   7
+        2      <->     5
+    3  <->  4      6  <->   7
     ...
 ```
 
