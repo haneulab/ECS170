@@ -1,5 +1,6 @@
 # ignoring review runtime files
 reviews/
+**/*.review.py
 
 # ignoring caches
 **/__pycache__/
