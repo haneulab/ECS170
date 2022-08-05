@@ -8,6 +8,7 @@ In this module, I will explore deeper into understanding **solution** which is j
 
 - [ ] [**Optional Solution**](#optimal-solution)
 - [ ] [**Iterative Seaching**](#iterative-searching)
+- [ ] [**Iterative Search Algorithms**](#iterative-searching-algorithms-bfs-and-dfs)
 
 ### Optimal Solution
 
@@ -154,3 +155,42 @@ solutions_no_diagonal_movements = [
     [0, 'C', 'F', 'G', 'D', 'A', 'B', 'E', 1] # path costs: 9 (worst)
 ]
 ```
+
+### Iterative Searching Algorithms BFS And DFS
+
+There are two popular searching algorithms we can take a look at. They have some common features such as they can be represented in a tree form that we discussed above. Second is that they will guarantee that we will have at least one solution (finding path from the initial state to the goal state). But they do have some significant differences and that they are used in different problems.
+
+- [ ] [**Breadth First Search**](#bfs)
+- [ ] [**Depth First Search**](#dfs)
+
+These searching algorithms are of the **uninformed** search type. This means that the actions these algorithms take will not have any information about current states beyond what is predefined within problem formulation. Another way of saying **uninformed search** is to limit the scope of search within the problem block. If we define that the state will have a value, theses search algorithms will have expectation for the existence of the value at each node, but they WILL NOT know if there is other objects or relationship between objects if any.
+
+#### BFS
+
+**Breadth First Search** is an iterative search algorithm that starts at the root node, and expands to its children nodes (successors) at each level. The next expansion depends on whether every successor of the parent node have been explored or not. This algorithm can be implemented along witg **FIFO queue**. For details of implementation of queue data tructure, please review `./implementation/queue.py` or click [queue.py](./implementation/queue.ipynb)
+
+```shell
+# BFS
+# order of expanding visualization
+
+                1
+        2       ->       3
+    4  ->   5   ->   6  ->   7
+    ...
+```
+
+#### DFS
+
+**Depth-first Search** is also an interative search algorithm that starts at the root node. This alogrithm unlike **BFS** first expands the first expansion to the deepest level until the node at that point does not expand its child. This algorithm can be implemented along with **LIFO queue**. Notice that although we are using tree form of search, **DFS** implementation on graph-search version will have quite distinguishable features from it.
+
+```shell
+# DFS
+# order of expanding visualization
+
+                1
+        2       ->       5
+    3  ->   4   ->   6  ->   7
+    ...
+```
+
+The problem? with **DFS** I find is that because it first searches expansion by expansion rather than level by level like **BFS**, it is possible that we reach the goal state even if it is NOT OPTIMAL solution. In order for us to find an optimal solution among varying solutions, this algorithm may NOT be optimal for this reason.
