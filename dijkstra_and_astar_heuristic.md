@@ -215,3 +215,11 @@ Path 2. `A -> B -> D -> E` : `Cost(Path 2) == 1 + 3 + 5 = 9`
 We know that Path 1 is the optimal solution here but we can further dissect this problem in a more computational logic.
 
 Notice that for both paths, upto the node _B_ the path cost are summed to the same amount `A -> B` : `Cost(A -> B) = 1`, this means that at the node _B_ we need to make an informed decision to get to the goal more efficiently (essentially paying less path cost).
+
+Thus, we can define the function for estimation of the cheapest cost `f(n)`
+
+$$
+    f(n) = g(n) + h(n)
+$$
+
+where `g(n)` represents the path cost from the start path point up to the current path point and `h(n)` represnets the estimated cheapest path cost from the current point to the goal point.
